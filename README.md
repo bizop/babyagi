@@ -1,6 +1,6 @@
 # BabyAGI - JavaScript Implementation
 
-This repository contains a JavaScript implementation of the Baby AGI task management system, originally created by Yohei Nakajima in Python. The system uses OpenAI and SQLLite to create, prioritize, and execute tasks. The main idea behind this system is that it creates tasks based on the result of previous tasks and a predefined objective. The script then uses OpenAI's natural language processing (NLP) capabilities to create new tasks based on the objective, and Pinecone to store and retrieve task results for context.
+This repository contains a JavaScript implementation of the Baby AGI task management system, originally created by Yohei Nakajima in Python. The system uses OpenAI and SQLLite to create, prioritize, and execute tasks. The main idea behind this system is that it creates tasks based on the result of previous tasks and a predefined objective. The script then uses OpenAI's natural language processing (NLP) capabilities to create new tasks based on the objective, and SQLLite to store and retrieve task results for context.
 
 This README will cover the following:
 
