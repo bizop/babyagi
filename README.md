@@ -14,7 +14,7 @@ The script works by running an infinite loop that does the following steps:
 
 1. Pulls the first task from the task list.
 2. Sends the task to the execution agent, which uses OpenAI's API to complete the task based on the context.
-3. Enriches the result and stores it in Pinecone.
+3. Enriches the result and stores it in SQL.
 4. Creates new tasks and reprioritizes the task list based on the objective and the result of the previous task.
 
 ## How to Use
