@@ -16,7 +16,7 @@ const configuration = new Configuration({
 export const openai = new OpenAIApi(configuration);
 
 const YOUR_TABLE_NAME = 'test_table';
-const OBJECTIVE = 'Create the greatest AI content writing assistant for niche site builders and marketing agency owners.';
+const OBJECTIVE = 'Solve world hunger';
 const YOUR_FIRST_TASK = 'Develop a task list.';
 
 console.log('\n*****OBJECTIVE*****\n');
